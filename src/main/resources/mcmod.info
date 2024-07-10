@@ -5,12 +5,12 @@
     "description": "",
     "version": "${version}",
     "mcversion": "${mcVersionStr}",
-    "url": "",
+    "url": "https://github.com/RTX4O9O/No7ter",
     "updateUrl": "",
     "authorList": [
-      "Your Name"
+      "RTX4O9O"
     ],
-    "credits": "",
+    "credits": "Alexdoru",
     "logoFile": "",
     "screenshots": [],
     "dependencies": []
