@@ -1,7 +1,7 @@
-package org.polyfrost.example.hud;
+package me.rtx4090.no7ter.hud;
 
 import cc.polyfrost.oneconfig.hud.SingleTextHud;
-import org.polyfrost.example.config.TestConfig;
+import me.rtx4090.no7ter.config.TestConfig;
 
 /**
  * An example OneConfig HUD that is started in the config and displays text.

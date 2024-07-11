@@ -1,4 +1,4 @@
-package org.polyfrost.example.mixin;
+package me.rtx4090.no7ter.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
-package org.polyfrost.example.command;
+package me.rtx4090.no7ter.command;
 
-import org.polyfrost.example.ExampleMod;
+import me.rtx4090.no7ter.No7ter;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Command;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Main;
 
@@ -10,12 +10,12 @@ import cc.polyfrost.oneconfig.utils.commands.annotations.Main;
  *
  * @see Command
  * @see Main
- * @see ExampleMod
+ * @see No7ter
  */
-@Command(value = ExampleMod.MODID, description = "Access the " + ExampleMod.NAME + " GUI.")
+@Command(value = No7ter.MODID, description = "Access the " + No7ter.NAME + " GUI.")
 public class ExampleCommand {
     @Main
     private void handle() {
-        ExampleMod.INSTANCE.config.openGui();
+        No7ter.INSTANCE.config.openGui();
     }
 }

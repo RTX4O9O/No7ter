@@ -2,7 +2,7 @@
   {
     "modid": "${id}",
     "name": "${name}",
-    "description": "",
+    "description": "a client side anti-cheat mod",
     "version": "${version}",
     "mcversion": "${mcVersionStr}",
     "url": "https://github.com/RTX4O9O/No7ter",
