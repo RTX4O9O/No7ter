@@ -1,7 +1,5 @@
-package me.rtx4090.no7ter.config;
+package me.rtx4090.no7ter.hud.no7ter.config;
 
-import me.rtx4090.no7ter.No7ter;
-import me.rtx4090.no7ter.hud.TestHud;
 import cc.polyfrost.oneconfig.config.Config;
 import cc.polyfrost.oneconfig.config.annotations.Dropdown;
 import cc.polyfrost.oneconfig.config.annotations.HUD;
@@ -10,6 +8,8 @@ import cc.polyfrost.oneconfig.config.annotations.Switch;
 import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
 import cc.polyfrost.oneconfig.config.data.OptionSize;
+import me.rtx4090.no7ter.hud.no7ter.No7ter;
+import me.rtx4090.no7ter.hud.no7ter.hud.TestHud;
 
 /**
  * The main Config entrypoint that extends the Config type and inits the config options.

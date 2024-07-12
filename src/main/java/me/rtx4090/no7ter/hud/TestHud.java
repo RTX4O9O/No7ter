@@ -1,12 +1,12 @@
 package me.rtx4090.no7ter.hud;
 
 import cc.polyfrost.oneconfig.hud.SingleTextHud;
-import me.rtx4090.no7ter.config.TestConfig;
+import me.rtx4090.no7ter.config.PolyConfig;
 
 /**
  * An example OneConfig HUD that is started in the config and displays text.
  *
- * @see TestConfig#hud
+ * @see PolyConfig#hud
  */
 public class TestHud extends SingleTextHud {
     public TestHud() {
