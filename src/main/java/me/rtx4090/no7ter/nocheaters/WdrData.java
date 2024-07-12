@@ -3,9 +3,9 @@ package me.rtx4090.no7ter.nocheaters;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.events.MegaWallsGameEvent;
-import fr.alexdoru.megawallsenhancementsmod.utils.UUIDUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.events.MegaWallsGameEvent;
+import me.rtx4090.no7ter.utils.UUIDUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 

@@ -1,14 +1,14 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.api.apikey.HypixelApiKeyUtil;
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.ASMLoadingPlugin;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.FancyGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.OptionGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.TextElement;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.api.apikey.HypixelApiKeyUtil;
+import me.rtx4090.no7ter.asm.loader.ASMLoadingPlugin;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.elements.FancyGuiButton;
+import me.rtx4090.no7ter.gui.elements.OptionGuiButton;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.TextElement;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.gui.GuiScreen;
 
 import java.util.ArrayList;

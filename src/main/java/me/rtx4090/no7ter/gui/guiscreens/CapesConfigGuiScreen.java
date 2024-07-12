@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.asm.mappings;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.ASMLoadingPlugin;
+import me.rtx4090.no7ter.asm.loader.ASMLoadingPlugin;
 
 public enum ClassMapping {
 
@@ -48,14 +48,14 @@ public enum ClassMapping {
     MAP("java/util/Map"),
     MATH("java/lang/Math"),
     MINECRAFT("ave", "net/minecraft/client/Minecraft"),
-    MWCLASS("fr/alexdoru/megawallsenhancementsmod/enums/MWClass"),
+    MWCLASS("me/rtx4090/no7ter/enums/MWClass"),
     NETHANDLERPLAYCLIENT("bcy", "net/minecraft/client/network/NetHandlerPlayClient"),
     NETWORKMANAGER("ek", "net/minecraft/network/NetworkManager"),
     NETWORKPLAYERINFO("bdc", "net/minecraft/client/network/NetworkPlayerInfo"),
     NETWORKPLAYERINFO$1("bdc$1", "net/minecraft/client/network/NetworkPlayerInfo$1"),
     PACKET("ff", "net/minecraft/network/Packet"),
     PACKETTHREADUTIL("fh", "net/minecraft/network/PacketThreadUtil"),
-    PLAYERDATASAMPLES("fr/alexdoru/megawallsenhancementsmod/hackerdetector/data/PlayerDataSamples"),
+    PLAYERDATASAMPLES("me/rtx4090/no7ter/hackerdetector/data/PlayerDataSamples"),
     POTION("pe", "net/minecraft/potion/Potion"),
     PROFILER("nt", "net/minecraft/profiler/Profiler"),
     RENDERERLIVINGENTITY("bjl", "net/minecraft/client/renderer/entity/RendererLivingEntity"),
@@ -77,7 +77,7 @@ public enum ClassMapping {
     SCOREBOARD("auo", "net/minecraft/scoreboard/Scoreboard"),
     SCOREOBJECTIVE("auk", "net/minecraft/scoreboard/ScoreObjective"),
     SCOREPLAYERTEAM("aul", "net/minecraft/scoreboard/ScorePlayerTeam"),
-    SKINCHATHEAD("fr/alexdoru/megawallsenhancementsmod/chat/SkinChatHead"),
+    SKINCHATHEAD("me/rtx4090/no7ter/chat/SkinChatHead"),
     SLOT("yg", "net/minecraft/inventory/Slot"),
     STRINGBUILDER("java/lang/StringBuilder"),
     TEAM("auq", "net/minecraft/scoreboard/Team"),

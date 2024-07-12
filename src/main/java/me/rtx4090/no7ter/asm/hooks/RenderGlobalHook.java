@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.HackerDetector;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.checks.FastbreakCheck;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.hackerdetector.HackerDetector;
+import me.rtx4090.no7ter.hackerdetector.checks.FastbreakCheck;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;

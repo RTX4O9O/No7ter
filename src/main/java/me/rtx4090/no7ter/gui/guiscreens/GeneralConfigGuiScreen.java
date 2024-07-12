@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.hooks.RendererLivingEntityHook_AprilFun;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.OptionGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.TextElement;
+import me.rtx4090.no7ter.asm.hooks.RendererLivingEntityHook_AprilFun;
+import me.rtx4090.no7ter.gui.elements.OptionGuiButton;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.TextElement;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.util.ResourceLocation;

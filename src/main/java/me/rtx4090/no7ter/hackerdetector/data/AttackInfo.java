@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.hackerdetector.data;
 
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.AttackDetector;
+import me.rtx4090.no7ter.hackerdetector.AttackDetector;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class AttackInfo {

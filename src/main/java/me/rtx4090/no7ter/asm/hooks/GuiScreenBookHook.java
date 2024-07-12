@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.features.SquadHandler;
-import fr.alexdoru.megawallsenhancementsmod.utils.TimerUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.features.SquadHandler;
+import me.rtx4090.no7ter.utils.TimerUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

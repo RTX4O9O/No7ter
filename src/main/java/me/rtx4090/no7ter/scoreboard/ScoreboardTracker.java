@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.scoreboard;
 
-import fr.alexdoru.megawallsenhancementsmod.events.MegaWallsGameEvent;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.BaseLocationHUD;
+import me.rtx4090.no7ter.events.MegaWallsGameEvent;
+import me.rtx4090.no7ter.gui.huds.BaseLocationHUD;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;

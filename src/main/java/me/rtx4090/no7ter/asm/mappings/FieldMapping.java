@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.mappings;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.ASMLoadingPlugin;
+import me.rtx4090.no7ter.asm.loader.ASMLoadingPlugin;
 
-import static fr.alexdoru.megawallsenhancementsmod.asm.mappings.ClassMapping.*;
+import static me.rtx4090.no7ter.asm.mappings.ClassMapping.*;
 
 public enum FieldMapping {
 

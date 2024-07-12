@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.hackerdetector.data;
 
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.checks.*;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.utils.Vector2D;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.utils.ViolationLevelTracker;
+import me.rtx4090.no7ter.hackerdetector.checks.*;
+import me.rtx4090.no7ter.hackerdetector.utils.Vector2D;
+import me.rtx4090.no7ter.hackerdetector.utils.ViolationLevelTracker;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBed;
 import net.minecraft.entity.player.EntityPlayer;

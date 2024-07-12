@@ -1,14 +1,14 @@
 package me.rtx4090.no7ter.asm.transformers;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.InjectionStatus;
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.MWETransformer;
-import fr.alexdoru.megawallsenhancementsmod.asm.mappings.FieldMapping;
+import me.rtx4090.no7ter.asm.loader.InjectionStatus;
+import me.rtx4090.no7ter.asm.loader.MWETransformer;
+import me.rtx4090.no7ter.asm.mappings.FieldMapping;
 import org.objectweb.asm.tree.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static fr.alexdoru.megawallsenhancementsmod.asm.mappings.ClassMapping.*;
+import static me.rtx4090.no7ter.asm.mappings.ClassMapping.*;
 
 public class HitboxRenderTransformer implements MWETransformer {
 

@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.asm.loader;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.transformers.*;
-import fr.alexdoru.megawallsenhancementsmod.asm.transformers.externalmods.OptifinePlayerItemsLayerTransformer_RemoveHats;
-import fr.alexdoru.megawallsenhancementsmod.asm.transformers.externalmods.OrangeSprintRendererTransformer_HideHUD;
-import fr.alexdoru.megawallsenhancementsmod.asm.transformers.externalmods.SidebarmodReloadedTransformer_CustomSidebarLines;
-import fr.alexdoru.megawallsenhancementsmod.asm.transformers.externalmods.SidebarmodRevampTransformer_CustomSidebarLines;
+import me.rtx4090.no7ter.asm.transformers.*;
+import me.rtx4090.no7ter.asm.transformers.externalmods.OptifinePlayerItemsLayerTransformer_RemoveHats;
+import me.rtx4090.no7ter.asm.transformers.externalmods.OrangeSprintRendererTransformer_HideHUD;
+import me.rtx4090.no7ter.asm.transformers.externalmods.SidebarmodReloadedTransformer_CustomSidebarLines;
+import me.rtx4090.no7ter.asm.transformers.externalmods.SidebarmodRevampTransformer_CustomSidebarLines;
 import net.minecraft.launchwrapper.IClassTransformer;
 import net.minecraft.launchwrapper.Launch;
 import org.apache.commons.io.FileUtils;

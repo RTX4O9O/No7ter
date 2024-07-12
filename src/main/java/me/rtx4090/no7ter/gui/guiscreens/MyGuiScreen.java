@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.ASMLoadingPlugin;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.FancyGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.UIElement;
+import me.rtx4090.no7ter.asm.loader.ASMLoadingPlugin;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.elements.FancyGuiButton;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.UIElement;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

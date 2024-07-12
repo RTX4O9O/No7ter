@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.KillCooldownHUD;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.utils.StringUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.huds.KillCooldownHUD;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.utils.StringUtil;
 
 @SuppressWarnings("unused")
 public class EntityPlayerSPHook_CommandListener {

@@ -1,13 +1,13 @@
 package me.rtx4090.no7ter.enums;
 
-import fr.alexdoru.megawallsenhancementsmod.features.FinalKillCounter;
+import me.rtx4090.no7ter.features.FinalKillCounter;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumChatFormatting;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static fr.alexdoru.megawallsenhancementsmod.enums.MegaWallsMap.TeamColor.*;
+import static me.rtx4090.no7ter.enums.MegaWallsMap.TeamColor.*;
 import static me.rtx4090.no7ter.enums.MegaWallsMap.TeamColor.*;
 
 public enum MegaWallsMap {

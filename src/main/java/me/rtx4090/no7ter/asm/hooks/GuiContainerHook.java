@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.enchantment.Enchantment;

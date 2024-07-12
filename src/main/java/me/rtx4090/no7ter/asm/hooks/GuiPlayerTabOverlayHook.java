@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.utils.ColorUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.utils.ColorUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.util.EnumChatFormatting;

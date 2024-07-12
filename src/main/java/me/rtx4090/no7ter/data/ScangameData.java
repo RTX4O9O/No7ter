@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.data;
 
-import fr.alexdoru.megawallsenhancementsmod.events.MegaWallsGameEvent;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardUtils;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.events.MegaWallsGameEvent;
+import me.rtx4090.no7ter.scoreboard.ScoreboardUtils;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.util.IChatComponent;

@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.data;
 
-import fr.alexdoru.megawallsenhancementsmod.enums.MWClass;
-import fr.alexdoru.megawallsenhancementsmod.nocheaters.WDR;
+import me.rtx4090.no7ter.enums.MWClass;
+import me.rtx4090.no7ter.nocheaters.WDR;
 import net.minecraft.util.IChatComponent;
 
 import java.util.HashMap;

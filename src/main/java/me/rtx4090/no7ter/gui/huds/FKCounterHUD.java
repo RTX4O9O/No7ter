@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.gui.huds;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.features.FinalKillCounter;
-import fr.alexdoru.megawallsenhancementsmod.features.SquadHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.utils.MapUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.features.FinalKillCounter;
+import me.rtx4090.no7ter.features.SquadHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.utils.MapUtil;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.EnumChatFormatting;

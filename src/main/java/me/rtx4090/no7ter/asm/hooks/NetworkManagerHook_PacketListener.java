@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.AttackDetector;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.hackerdetector.AttackDetector;
 import net.minecraft.network.Packet;
 
 @SuppressWarnings("unused")

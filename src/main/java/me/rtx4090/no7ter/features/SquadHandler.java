@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.features;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardUtils;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.scoreboard.ScoreboardUtils;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.event.entity.player.PlayerEvent.NameFormat;

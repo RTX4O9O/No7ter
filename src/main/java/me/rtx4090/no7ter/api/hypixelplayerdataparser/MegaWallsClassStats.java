@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.api.hypixelplayerdataparser;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.utils.JsonUtil;
 import net.minecraft.event.HoverEvent;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.ChatStyle;

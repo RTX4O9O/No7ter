@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.chat;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.GuiNewChatAccessor;
+import me.rtx4090.no7ter.asm.accessors.GuiNewChatAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ChatLine;
 import net.minecraft.client.gui.GuiUtilRenderComponents;

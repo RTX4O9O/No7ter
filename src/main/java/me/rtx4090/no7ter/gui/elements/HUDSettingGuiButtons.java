@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.gui.elements;
 
-import fr.alexdoru.megawallsenhancementsmod.gui.guiapi.IRenderer;
-import fr.alexdoru.megawallsenhancementsmod.gui.guiapi.PositionEditGuiScreen;
+import me.rtx4090.no7ter.gui.guiapi.IRenderer;
+import me.rtx4090.no7ter.gui.guiapi.PositionEditGuiScreen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

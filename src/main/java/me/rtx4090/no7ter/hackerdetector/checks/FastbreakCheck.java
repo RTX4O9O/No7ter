@@ -1,12 +1,12 @@
 package me.rtx4090.no7ter.hackerdetector.checks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.enums.MWClass;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.data.BrokenBlock;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.data.PlayerDataSamples;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.utils.ViolationLevelTracker;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.asm.accessors.EntityPlayerAccessor;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.enums.MWClass;
+import me.rtx4090.no7ter.hackerdetector.data.BrokenBlock;
+import me.rtx4090.no7ter.hackerdetector.data.PlayerDataSamples;
+import me.rtx4090.no7ter.hackerdetector.utils.ViolationLevelTracker;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;

@@ -1,13 +1,13 @@
 package me.rtx4090.no7ter.data;
 
 
-import fr.alexdoru.megawallsenhancementsmod.api.cache.CachedHypixelPlayerData;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.api.hypixelplayerdataparser.MegaWallsClassStats;
-import fr.alexdoru.megawallsenhancementsmod.enums.MWClass;
-import fr.alexdoru.megawallsenhancementsmod.utils.ColorUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.MultithreadingUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.api.cache.CachedHypixelPlayerData;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.api.hypixelplayerdataparser.MegaWallsClassStats;
+import me.rtx4090.no7ter.enums.MWClass;
+import me.rtx4090.no7ter.utils.ColorUtil;
+import me.rtx4090.no7ter.utils.MultithreadingUtil;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumChatFormatting;
 

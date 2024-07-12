@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.hackerdetector.checks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.data.PlayerDataSamples;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.utils.ViolationLevelTracker;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.hackerdetector.data.PlayerDataSamples;
+import me.rtx4090.no7ter.hackerdetector.utils.ViolationLevelTracker;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;

@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.utils.DelayedTask;
-import fr.alexdoru.megawallsenhancementsmod.utils.TabCompletionUtil;
+import me.rtx4090.no7ter.utils.DelayedTask;
+import me.rtx4090.no7ter.utils.TabCompletionUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiChat;
 import net.minecraft.command.CommandBase;

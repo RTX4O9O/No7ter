@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.gui.huds;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import net.minecraft.client.gui.ScaledResolution;
 
 public class HunterStrengthHUD extends AbstractRenderer {

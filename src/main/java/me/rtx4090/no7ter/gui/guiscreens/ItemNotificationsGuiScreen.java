@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.OptionGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.TextElement;
-import fr.alexdoru.megawallsenhancementsmod.gui.guiscreens.*;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.elements.OptionGuiButton;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.TextElement;
+import me.rtx4090.no7ter.gui.guiscreens.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.gui.GuiScreen;

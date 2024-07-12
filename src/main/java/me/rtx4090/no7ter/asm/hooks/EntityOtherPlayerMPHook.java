@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.features.LeatherArmorManager;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.HackerDetector;
+import me.rtx4090.no7ter.asm.accessors.EntityPlayerAccessor;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.features.LeatherArmorManager;
+import me.rtx4090.no7ter.hackerdetector.HackerDetector;
 import net.minecraft.client.entity.EntityOtherPlayerMP;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;

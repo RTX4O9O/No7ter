@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.gui.guiapi;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.utils.DelayedTask;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.utils.DelayedTask;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiScreen;

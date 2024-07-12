@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.api.cache;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.api.requests.HypixelPlayerData;
-import fr.alexdoru.megawallsenhancementsmod.utils.TimerUtil;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.api.requests.HypixelPlayerData;
+import me.rtx4090.no7ter.utils.TimerUtil;
 
 public class CachedHypixelPlayerData {
 

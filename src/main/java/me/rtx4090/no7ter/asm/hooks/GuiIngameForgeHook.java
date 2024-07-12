@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.config.ConfigHandler;
 
 @SuppressWarnings("unused")
 public class GuiIngameForgeHook {

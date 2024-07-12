@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.api.apikey;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import net.minecraft.util.EnumChatFormatting;
 
 public class HypixelApiKeyUtil {

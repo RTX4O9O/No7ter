@@ -3,8 +3,8 @@ package me.rtx4090.no7ter.api.hypixelplayerdataparser;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.enums.GameType;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.enums.GameType;
+import me.rtx4090.no7ter.utils.JsonUtil;
 import net.minecraft.util.EnumChatFormatting;
 
 import java.util.Map;

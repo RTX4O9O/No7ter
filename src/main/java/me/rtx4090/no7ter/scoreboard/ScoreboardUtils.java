@@ -2,9 +2,9 @@ package me.rtx4090.no7ter.scoreboard;
 
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
-import fr.alexdoru.megawallsenhancementsmod.MegaWallsEnhancementsMod;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.StringUtil;
+import me.rtx4090.no7ter.No7ter;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.utils.StringUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.scoreboard.Score;
 import net.minecraft.scoreboard.ScoreObjective;
@@ -170,7 +170,7 @@ public class ScoreboardUtils {
             }
         }
         printChat.forEach(ChatUtil::addChatMessage);
-        printConsole.forEach(MegaWallsEnhancementsMod.logger::info);
+        printConsole.forEach(No7ter.logger::info);
     }
 
     /**

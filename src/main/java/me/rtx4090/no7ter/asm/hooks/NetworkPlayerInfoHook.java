@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
 import com.mojang.authlib.GameProfile;
-import fr.alexdoru.megawallsenhancementsmod.features.FinalKillCounter;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.features.FinalKillCounter;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.util.IChatComponent;
 
 @SuppressWarnings("unused")

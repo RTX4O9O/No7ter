@@ -1,7 +1,5 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
 import net.minecraft.entity.EntityLivingBase;
 
 @SuppressWarnings("unused")

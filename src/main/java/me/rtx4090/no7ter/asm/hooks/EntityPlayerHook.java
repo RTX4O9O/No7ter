@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
+import me.rtx4090.no7ter.asm.accessors.EntityPlayerAccessor;
 import net.minecraft.entity.player.EntityPlayer;
 
 @SuppressWarnings("unused")

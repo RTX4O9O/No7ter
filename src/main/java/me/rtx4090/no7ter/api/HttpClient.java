@@ -4,12 +4,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import fr.alexdoru.megawallsenhancementsmod.api.apikey.HypixelApiKeyUtil;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.RateLimitException;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.api.apikey.HypixelApiKeyUtil;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.api.exceptions.RateLimitException;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.utils.JsonUtil;
 import net.minecraft.client.Minecraft;
 
 import java.io.BufferedReader;

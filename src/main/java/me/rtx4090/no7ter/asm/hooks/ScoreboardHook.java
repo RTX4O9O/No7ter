@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.utils.NameUtil;
 
 @SuppressWarnings("unused")
 public class ScoreboardHook {

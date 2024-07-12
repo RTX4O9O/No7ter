@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.nocheaters;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatHandler;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.events.MegaWallsGameEvent;
-import fr.alexdoru.megawallsenhancementsmod.features.PartyDetection;
+import me.rtx4090.no7ter.chat.ChatHandler;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.events.MegaWallsGameEvent;
+import me.rtx4090.no7ter.features.PartyDetection;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiChat;
 import net.minecraft.client.gui.GuiIngameMenu;

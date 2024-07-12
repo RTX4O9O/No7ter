@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.chat;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.ChatComponentTextAccessor;
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.GuiChatAccessor;
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.NetworkPlayerInfoAccessor_ChatHeads;
-import fr.alexdoru.megawallsenhancementsmod.asm.hooks.NetHandlerPlayClientHook;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.asm.accessors.ChatComponentTextAccessor;
+import me.rtx4090.no7ter.asm.accessors.GuiChatAccessor;
+import me.rtx4090.no7ter.asm.accessors.NetworkPlayerInfoAccessor_ChatHeads;
+import me.rtx4090.no7ter.asm.hooks.NetHandlerPlayClientHook;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.event.ClickEvent;

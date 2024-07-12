@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.nocheaters;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.DelayedTask;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.utils.DelayedTask;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.gui.GuiGameOver;
 import net.minecraft.entity.player.EntityPlayer;

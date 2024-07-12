@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.hackerdetector.checks;
 
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.data.PlayerDataSamples;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.utils.ViolationLevelTracker;
+import me.rtx4090.no7ter.hackerdetector.data.PlayerDataSamples;
+import me.rtx4090.no7ter.hackerdetector.utils.ViolationLevelTracker;
 import net.minecraft.entity.player.EntityPlayer;
 
 public interface ICheck {

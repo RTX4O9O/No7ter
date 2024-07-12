@@ -1,11 +1,11 @@
 package me.rtx4090.no7ter.asm.hooks;
 
 import com.google.common.collect.EvictingQueue;
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.ChatComponentTextAccessor;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.chat.SkinChatHead;
-import fr.alexdoru.megawallsenhancementsmod.data.MWPlayerData;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
+import me.rtx4090.no7ter.asm.accessors.ChatComponentTextAccessor;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.chat.SkinChatHead;
+import me.rtx4090.no7ter.data.MWPlayerData;
+import me.rtx4090.no7ter.utils.NameUtil;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.event.ClickEvent;
 import net.minecraft.event.HoverEvent;

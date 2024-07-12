@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.api.requests;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.api.HttpClient;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.api.HttpClient;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.utils.JsonUtil;
 import net.minecraft.util.EnumChatFormatting;
 
 public class HypixelGuild {

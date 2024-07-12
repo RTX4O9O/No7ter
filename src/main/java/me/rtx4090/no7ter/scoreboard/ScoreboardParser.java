@@ -1,9 +1,9 @@
 package me.rtx4090.no7ter.scoreboard;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.LastWitherHPHUD;
-import fr.alexdoru.megawallsenhancementsmod.utils.SoundUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.StringUtil;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.gui.huds.LastWitherHPHUD;
+import me.rtx4090.no7ter.utils.SoundUtil;
+import me.rtx4090.no7ter.utils.StringUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.scoreboard.Scoreboard;
 import net.minecraft.util.EnumChatFormatting;

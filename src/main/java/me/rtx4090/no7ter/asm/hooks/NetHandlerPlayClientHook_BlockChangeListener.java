@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.HackerDetector;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.hackerdetector.HackerDetector;
 import net.minecraft.network.play.server.S22PacketMultiBlockChange;
 import net.minecraft.network.play.server.S23PacketBlockChange;
 

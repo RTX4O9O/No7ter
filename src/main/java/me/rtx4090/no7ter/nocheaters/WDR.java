@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.nocheaters;
 
-import fr.alexdoru.megawallsenhancementsmod.commands.CommandReport;
+import me.rtx4090.no7ter.command.CommandReport;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.IChatComponent;

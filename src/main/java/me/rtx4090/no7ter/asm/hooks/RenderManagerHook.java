@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.IHitboxRender;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.asm.accessors.EntityPlayerAccessor;
+import me.rtx4090.no7ter.asm.accessors.IHitboxRender;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.projectile.EntityArrow;

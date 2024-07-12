@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.features;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.hooks.NetHandlerPlayClientHook;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.DelayedTask;
-import fr.alexdoru.megawallsenhancementsmod.utils.NameUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.StringUtil;
+import me.rtx4090.no7ter.asm.hooks.NetHandlerPlayClientHook;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.utils.DelayedTask;
+import me.rtx4090.no7ter.utils.NameUtil;
+import me.rtx4090.no7ter.utils.StringUtil;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.event.ClickEvent;
 import net.minecraft.event.HoverEvent;

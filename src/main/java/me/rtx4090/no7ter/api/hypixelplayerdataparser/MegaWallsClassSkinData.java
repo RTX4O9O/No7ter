@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.api.hypixelplayerdataparser;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.utils.JsonUtil;
 
 public class MegaWallsClassSkinData {
 

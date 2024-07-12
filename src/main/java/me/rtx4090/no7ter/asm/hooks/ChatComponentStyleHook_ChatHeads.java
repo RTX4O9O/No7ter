@@ -1,6 +1,6 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.ChatComponentTextAccessor;
+import me.rtx4090.no7ter.asm.accessors.ChatComponentTextAccessor;
 import net.minecraft.util.IChatComponent;
 
 @SuppressWarnings("unused")

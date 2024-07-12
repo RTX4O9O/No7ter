@@ -9,7 +9,7 @@ public class ViolationLevelTracker {
 
     /**
      * Use this constructor to manage the violation level manually
-     * in the {@link fr.alexdoru.megawallsenhancementsmod.hackerdetector.checks.ICheck#check} calls
+     * in the {@link me.rtx4090.no7ter.hackerdetector.checks.ICheck#check} calls
      */
     public ViolationLevelTracker(int flagLevel) {
         this.failedCheckWeight = 0;
@@ -59,7 +59,7 @@ public class ViolationLevelTracker {
 
     /**
      * Method used to manage the violation level manually
-     * Needs to be called in {@link fr.alexdoru.megawallsenhancementsmod.hackerdetector.checks.ICheck#check}
+     * Needs to be called in {@link me.rtx4090.no7ter.hackerdetector.checks.ICheck#check}
      */
     public void add(int i) {
         this.violationLevel += i;
@@ -67,7 +67,7 @@ public class ViolationLevelTracker {
 
     /**
      * Method used to manage the violation level manually
-     * Needs to be called in {@link fr.alexdoru.megawallsenhancementsmod.hackerdetector.checks.ICheck#check}
+     * Needs to be called in {@link me.rtx4090.no7ter.hackerdetector.checks.ICheck#check}
      */
     public void substract(int i) {
         this.violationLevel -= i;

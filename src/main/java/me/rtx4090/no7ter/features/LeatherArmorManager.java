@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.features;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.EntityPlayerAccessor;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.asm.accessors.EntityPlayerAccessor;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityOtherPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;

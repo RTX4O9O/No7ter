@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.api.requests;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.api.HttpClient;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.enums.GameType;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
+import me.rtx4090.no7ter.api.HttpClient;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.enums.GameType;
+import me.rtx4090.no7ter.utils.JsonUtil;
 
 public class HypixelPlayerStatus {
 

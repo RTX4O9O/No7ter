@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.accessors;
 
-import fr.alexdoru.megawallsenhancementsmod.enums.MWClass;
-import fr.alexdoru.megawallsenhancementsmod.hackerdetector.data.PlayerDataSamples;
+import me.rtx4090.no7ter.enums.MWClass;
+import me.rtx4090.no7ter.hackerdetector.data.PlayerDataSamples;
 
 public interface EntityPlayerAccessor {
     String getPrestige4Tag();

@@ -1,11 +1,11 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.HUDSettingGuiButtons;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.TextElement;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.*;
-import fr.alexdoru.megawallsenhancementsmod.utils.SoundUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.elements.HUDSettingGuiButtons;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.TextElement;
+import me.rtx4090.no7ter.gui.huds.*;
+import me.rtx4090.no7ter.utils.SoundUtil;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.fml.client.config.GuiSlider;
 

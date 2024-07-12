@@ -1,12 +1,12 @@
 package me.rtx4090.no7ter.gui.huds;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.hooks.NetHandlerPlayClientHook;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.features.SquadHandler;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.utils.MapUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.SkinUtil;
+import me.rtx4090.no7ter.asm.hooks.NetHandlerPlayClientHook;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.features.SquadHandler;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.utils.MapUtil;
+import me.rtx4090.no7ter.utils.SkinUtil;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.network.NetworkPlayerInfo;

@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.features.FinalKillCounter;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.FKCounterHUD;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.LastWitherHPHUD;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.features.FinalKillCounter;
+import me.rtx4090.no7ter.gui.huds.FKCounterHUD;
+import me.rtx4090.no7ter.gui.huds.LastWitherHPHUD;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
 import net.minecraft.client.gui.FontRenderer;
 
 @SuppressWarnings("unused")

@@ -1,13 +1,31 @@
 package me.rtx4090.no7ter;
 
-import me.rtx4090.no7ter.command.ExampleCommand;
+import me.rtx4090.no7ter.asm.hooks.RenderPlayerHook_RenegadeArrowCount;
+import me.rtx4090.no7ter.chat.ChatListener;
+import me.rtx4090.no7ter.command.*;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import me.rtx4090.no7ter.config.PolyConfig;
 import cc.polyfrost.oneconfig.events.event.InitializationEvent;
+import me.rtx4090.no7ter.features.FinalKillCounter;
+import me.rtx4090.no7ter.features.LowHPIndicator;
+import me.rtx4090.no7ter.features.MegaWallsEndGameStats;
+import me.rtx4090.no7ter.features.SquadHandler;
+import me.rtx4090.no7ter.gui.guiapi.GuiManager;
+import me.rtx4090.no7ter.nocheaters.PlayerJoinListener;
+import me.rtx4090.no7ter.nocheaters.ReportQueue;
+import me.rtx4090.no7ter.nocheaters.WdrData;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.hackerdetector.HackerDetector;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import cc.polyfrost.oneconfig.utils.commands.CommandManager;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 
 /**
  * The entrypoint of the Example Mod that initializes it.
@@ -25,6 +43,14 @@ public class No7ter {
     @Mod.Instance(MODID)
     public static No7ter INSTANCE; // Adds the instance of the mod, so we can access other variables.
     public static PolyConfig config;
+    public static File jarFile;
+    public static final Logger logger = LogManager.getLogger(NAME);
+
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+        ConfigHandler.preInit(event.getSuggestedConfigurationFile());
+        jarFile = event.getSourceFile();
+    }
 
     // Register the config and commands.
     @Mod.EventHandler
@@ -33,7 +59,6 @@ public class No7ter {
         CommandManager.INSTANCE.registerCommand(new ExampleCommand());
         MinecraftForge.EVENT_BUS.register(new WdrData());
         MinecraftForge.EVENT_BUS.register(new GuiManager());
-        MinecraftForge.EVENT_BUS.register(new ModUpdater());
         MinecraftForge.EVENT_BUS.register(new ReportQueue());
         MinecraftForge.EVENT_BUS.register(new ChatListener());
         MinecraftForge.EVENT_BUS.register(new SquadHandler());

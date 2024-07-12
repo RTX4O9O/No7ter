@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.ColoredSquareElement;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.SimpleGuiButton;
+import me.rtx4090.no7ter.gui.elements.ColoredSquareElement;
+import me.rtx4090.no7ter.gui.elements.SimpleGuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.fml.client.config.GuiSlider;
 

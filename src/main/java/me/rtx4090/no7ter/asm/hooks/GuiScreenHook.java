@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.GuiChatAccessor;
-import fr.alexdoru.megawallsenhancementsmod.features.MegaWallsEndGameStats;
-import fr.alexdoru.megawallsenhancementsmod.utils.ClipboardUtil;
+import me.rtx4090.no7ter.asm.accessors.GuiChatAccessor;
+import me.rtx4090.no7ter.features.MegaWallsEndGameStats;
+import me.rtx4090.no7ter.utils.ClipboardUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiChat;
 

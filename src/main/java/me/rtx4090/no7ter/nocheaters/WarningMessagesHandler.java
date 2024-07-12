@@ -1,10 +1,10 @@
 package me.rtx4090.no7ter.nocheaters;
 
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatHandler;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.chat.WarningChatComponent;
-import fr.alexdoru.megawallsenhancementsmod.scoreboard.ScoreboardTracker;
-import fr.alexdoru.megawallsenhancementsmod.utils.DateUtil;
+import me.rtx4090.no7ter.chat.ChatHandler;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.chat.WarningChatComponent;
+import me.rtx4090.no7ter.scoreboard.ScoreboardTracker;
+import me.rtx4090.no7ter.utils.DateUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.event.ClickEvent;

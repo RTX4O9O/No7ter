@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.gui.huds;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.nocheaters.ReportQueue;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.nocheaters.ReportQueue;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.util.EnumChatFormatting;
 

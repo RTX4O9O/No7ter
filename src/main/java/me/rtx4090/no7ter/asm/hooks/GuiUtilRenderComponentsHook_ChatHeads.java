@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.hooks;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.accessors.ChatComponentTextAccessor;
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
+import me.rtx4090.no7ter.asm.accessors.ChatComponentTextAccessor;
+import me.rtx4090.no7ter.config.ConfigHandler;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.IChatComponent;
 

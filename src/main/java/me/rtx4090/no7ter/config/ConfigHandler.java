@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.config;
 
-import fr.alexdoru.megawallsenhancementsmod.MegaWallsEnhancementsMod;
-import fr.alexdoru.megawallsenhancementsmod.gui.guiapi.GuiPosition;
+import me.rtx4090.no7ter.No7ter;
+import me.rtx4090.no7ter.gui.guiapi.GuiPosition;
 
 public class ConfigHandler extends AbstractConfig {
 
@@ -14,12 +14,12 @@ public class ConfigHandler extends AbstractConfig {
     private static final String ItemNotifications = "Item Notifications";
     private static final String CAPE = "Cape"; // New category for cape settings
     protected static void onModUpdate() {
-        if (!modVersion.equals(MegaWallsEnhancementsMod.version)) {
+        if (!modVersion.equals(No7ter.VERSION)) {
             ConfigHandler.hackerDetector = true;
             ConfigHandler.autoreportFlaggedPlayers = true;
             ConfigHandler.showReportHUD = true;
             ConfigHandler.showReportHUDonlyInChat = false;
-            ConfigHandler.modVersion = MegaWallsEnhancementsMod.version;
+            ConfigHandler.modVersion = No7ter.VERSION;
             ConfigHandler.saveConfig();
             ConfigHandler.showChainNotification = true;
         }

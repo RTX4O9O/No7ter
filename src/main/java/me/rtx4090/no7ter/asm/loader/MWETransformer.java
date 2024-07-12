@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.asm.loader;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.mappings.ClassMapping;
-import fr.alexdoru.megawallsenhancementsmod.asm.mappings.FieldMapping;
-import fr.alexdoru.megawallsenhancementsmod.asm.mappings.MethodMapping;
+import me.rtx4090.no7ter.asm.mappings.ClassMapping;
+import me.rtx4090.no7ter.asm.mappings.FieldMapping;
+import me.rtx4090.no7ter.asm.mappings.MethodMapping;
 import org.objectweb.asm.Label;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
@@ -23,11 +23,11 @@ public interface MWETransformer extends Opcodes {
     void transform(ClassNode classNode, InjectionStatus status);
 
     default void addInterface(ClassNode classNode, String interfaceName) {
-        classNode.interfaces.add("fr/alexdoru/megawallsenhancementsmod/asm/accessors/" + interfaceName);
+        classNode.interfaces.add("me/rtx4090/no7ter/asm/accessors/" + interfaceName);
     }
 
     default String getHookClass(String className) {
-        return "fr/alexdoru/megawallsenhancementsmod/asm/hooks/" + className;
+        return "me/rtx4090/no7ter/asm/hooks/" + className;
     }
 
     default void nodeToString(AbstractInsnNode insnNode) {
@@ -111,7 +111,7 @@ public interface MWETransformer extends Opcodes {
     }
 
     default FieldInsnNode getNewConfigFieldInsnNode(String name) {
-        return new FieldInsnNode(GETSTATIC, "fr/alexdoru/megawallsenhancementsmod/config/ConfigHandler", name, "Z");
+        return new FieldInsnNode(GETSTATIC, "me/rtx4090/no7ter/config/ConfigHandler", name, "Z");
     }
 
     default void addGetterAndSetterMethod(ClassNode classNode, String methodName, FieldMapping field, String methodSignature) {

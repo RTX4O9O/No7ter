@@ -1,8 +1,8 @@
 package me.rtx4090.no7ter.gui.guiscreens;
 
-import fr.alexdoru.megawallsenhancementsmod.config.ConfigHandler;
-import fr.alexdoru.megawallsenhancementsmod.gui.elements.*;
-import fr.alexdoru.megawallsenhancementsmod.gui.huds.FKCounterHUD;
+import me.rtx4090.no7ter.config.ConfigHandler;
+import me.rtx4090.no7ter.gui.elements.*;
+import me.rtx4090.no7ter.gui.huds.FKCounterHUD;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.fml.client.config.GuiSlider;
 

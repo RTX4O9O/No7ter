@@ -1,11 +1,11 @@
 package me.rtx4090.no7ter.api.requests;
 
 import com.google.gson.JsonObject;
-import fr.alexdoru.megawallsenhancementsmod.api.HttpClient;
-import fr.alexdoru.megawallsenhancementsmod.api.exceptions.ApiException;
-import fr.alexdoru.megawallsenhancementsmod.chat.ChatUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.JsonUtil;
-import fr.alexdoru.megawallsenhancementsmod.utils.UUIDUtil;
+import me.rtx4090.no7ter.api.HttpClient;
+import me.rtx4090.no7ter.api.exceptions.ApiException;
+import me.rtx4090.no7ter.chat.ChatUtil;
+import me.rtx4090.no7ter.utils.JsonUtil;
+import me.rtx4090.no7ter.utils.UUIDUtil;
 
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

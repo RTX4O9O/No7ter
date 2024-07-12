@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.gui.huds;
 
-import fr.alexdoru.megawallsenhancementsmod.gui.guiapi.GuiPosition;
-import fr.alexdoru.megawallsenhancementsmod.gui.guiapi.IRenderer;
+import me.rtx4090.no7ter.gui.guiapi.GuiPosition;
+import me.rtx4090.no7ter.gui.guiapi.IRenderer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 

@@ -1,7 +1,7 @@
 package me.rtx4090.no7ter.asm.transformers.externalmods;
 
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.InjectionStatus;
-import fr.alexdoru.megawallsenhancementsmod.asm.loader.MWETransformer;
+import me.rtx4090.no7ter.asm.loader.InjectionStatus;
+import me.rtx4090.no7ter.asm.loader.MWETransformer;
 import org.objectweb.asm.tree.*;
 
 public class SidebarmodRevampTransformer_CustomSidebarLines implements MWETransformer {
